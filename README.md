@@ -11,12 +11,12 @@ Exponentiation using `a^b`, where b < 9223372036854775808
 using namespace std;
 
 int main() {
-  BigInt num1 = "65190835613095830518236529081543672985102491238905694301573290384612861302893946";
-  BigInt num2 = -01189998819991197253LL;
+  BigInt num1 = (string)"01189998819991197253";
+  BigInt num2 = 21;
   cout << "Num2 is : " << num2.toLL() << "\n";
   
   cout << num1 + num2 << "\n";
   cout << num1 * num2 << "\n";
   cout << num1 - num2 << "\n";
-  cout << num1 ^ num2 << "\n";
-}
+  cout << (num1 ^ num2.toLL()) << "\n";
+}```
