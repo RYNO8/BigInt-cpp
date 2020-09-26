@@ -1,12 +1,22 @@
 # BigInt-cpp
 Hahah C++ is BETTER and FASTER than python
 
-Supports addition, subtraction, multiplication for arbitary integers
+Supports:
+ - +, ++, +=
+ - -, --, -=
+ - *, *=
+ - pow
+ - <<, <<=
+ - >>, >>=
+ - |, |=
+ - ^, ^=
+ - &, &=
 
-Exponentiation using `a^b`, where b < 9223372036854775808
 
 ## Example
+compile with `g++ -O3 -o output sample.cpp BigInt.cpp`
 ```c++
+// sample.cpp
 #include <iostream>
 #include <string>
 #include "BigInt.hpp"

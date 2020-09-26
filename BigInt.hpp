@@ -67,7 +67,7 @@ public:
 	};
 	BigInt operator<<(BigInt o);
 	template<typename T> BigInt operator<<(T o) { return *this << BigInt(o); };
-	template<typename T> BigInt operator<<=(T o) { return (*this) << o; };
+	template<typename T> void operator<<=(T o) { *this = *this << o; };
 	BigInt operator>>(BigInt o);
 	template<typename T> BigInt operator>>(T o) { return *this >> BigInt(o) ; };
 	template<typename T> void operator>>=(T o) { *this = *this >> o; };
