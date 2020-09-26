@@ -7,7 +7,7 @@ typedef long long i63;
 typedef unsigned long long i64;
 
 // optimised for time, not space
-// the upper is 2**M64 or 2**(2**64-1) or _____
+// the upper is 2**M64 or 2**(2**64-1) or 10**(10**19)
 // realistically you will run out of memory first, lol
 class BigInt {
 public:
